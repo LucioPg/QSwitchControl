@@ -3,7 +3,7 @@ import pathlib
 from setuptools import setup
 
 HERE = pathlib.Path(__file__).parent
-README = (HERE / "QSwitchControl\\README.md").read_text()
+README = (HERE / "README.md").read_text()
 setup(
 	name="QSwitchControl",
 	version="1.0.4",
@@ -11,7 +11,7 @@ setup(
 	long_description=README,
 	long_description_content_type="text/markdown",
 	url="https://github.com/Prx001/QSwitchControl",
-	author="Parsa.py",
+	author="Parsa.p",
 	author_email="munichbayern2005@gmail.com",
 	license="MIT",
 	classifiers=[
